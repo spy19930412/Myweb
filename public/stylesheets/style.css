@@ -1,0 +1,55 @@
+@charset "utf-8";
+body{ margin:0; padding:0;}
+*{ margin:0; padding:0; list-style-type:none; outline:none; border:none; text-decoration:none;}
+a{ cursor:pointer;}
+
+.header{ width:100%; min-width:1270px; background: none repeat scroll 0 0 #e5e5e5; height:146px; position:fixed; top:0; width:100%; z-index:9999; }
+.top{ width:1270px; display:block; overflow:hidden; margin:0 auto; height:146px;}
+.top .logo{ display:block; overflow:hidden; float:left; margin-top:60px;}
+.top .logo span{ padding-left:20px; background:url(../images/phone.png) no-repeat left center; color:#666; margin-right:10px; margin-top:5px;}
+.top .logo span em{color:#055487; font-size:14px; font-weight:bold; margin-left:5px;}
+.top .nav_box{ width:1045px; display:block; overflow:hidden; float:right;position:relative;}
+
+
+/*导航*/
+.nav ul li{ width:116px; height:146px; display:block; overflow:hidden; float:left; text-align:center;}
+.nav ul li a{ display:block; overflow:hidden; width:109px; padding-right:7px; height:146px;}
+.nav ul li a img{ clear:both; margin:57px auto 17px; display:block; overflow:hidden;}
+.nav ul li a.cur,.nav ul li a:hover{ background:url(../images/nav_bg.png) no-repeat center;}
+.nav ul li a span{ font-size:16px; color:#003a7e;}
+
+
+/*banner*/
+.carousel{
+	width:1280px;
+	margin: 0 auto;
+	}
+.carousel-inner .item img{
+	width:1280px;
+	height:355px;
+}
+ 
+
+/*首页内容部分main*/
+.main_box{width:100%; min-width:1270px; background:url(../images/main_bg.png) repeat-x; height:366px;}
+.main{ width:1294px; display:block; overflow:hidden; margin:0 auto;}
+.main .one{ width:300px; height:310px; padding:0 25px 19px; display:block; overflow:hidden; float:left; background:url(../images/one_bg.png) no-repeat; margin:25px 3px 0;}
+.main .one h2{ height:47px; text-align:center; line-height:47px; color:#fff; font-size:18px; font-family:"微软雅黑"; font-weight:normal;}
+.main .one .one_cc{ height:260px; display:block; overflow:hidden; width:300px; position:relative;}
+.main .one .one_cc i{ width:300px; height:100px; display:block; overflow:hidden;}
+.main .one .one_cc i img{ display:block; overflow:hidden; margin:0 auto; margin-top:15px;}
+.main .one .one_cc a.more{ display:block; overflow:hidden; background:url(../images/more_bg.png) no-repeat; width:136px; height:38px; text-align:center; color:#fff;font:14px/38px "微软雅黑"; position:absolute; left:50%; margin-left:-68px; bottom:17px;}
+
+.main .one .one_cc p{ text-indent:2em; line-height:30px; color:#666; font-size:12px;}
+.main .one .one_cc ul li{ width:256px; border-bottom:1px dotted #afafaf; padding:3px 0 0 10px;}
+.main .one .one_cc ul li span{ clear:both; display:block; overflow:hidden; font:12px/20px "微软雅黑"; color:#05203e;}
+.main .one .one_cc ul li a{ color:#666; font-size:12px; line-height:20px; margin-bottom:3px; display:block; overflow:hidden;}
+
+
+/*footer*/
+.footer{ width:100%; min-width:1270px; height:50px; line-height:50px; font-size:12px; background:#061f3e;}
+.footer .foot{ width:1270px; margin:0 auto; display:block; overflow:hidden;}
+.footer .foot .fl{ float:left; display:block; overflow:hidden; color:#fff;}
+.footer .foot .fl a,.footer .foot .fr p,.footer .foot .fr p a{ color:#fff;}
+.footer .foot .fr{ float:right; display:block; overflow:hidden;}
+.footer .foot .fr p{ float:left; display:block; overflow:hidden;}

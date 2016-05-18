@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <div>
+
+        <p>用户名： <input type="text" id="name" /></p>
+        <p>密码： <input type="password" id="password"></p>
+        <button id="submit">提交</button>
+    </div>
+    <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('#submit').click(function () {
+        var name=$('#name').val().trim();
+        var password=$('#password').val().trim();
+        $.ajax({
+            type:'post',
+            url:'/login',
+            data:{
+                name:name,
+                password:password
+            },
+            error:function () {
+                alert('失败');
+            },
+            success:function (data) {
+                if(data=='success'){
+                    location.href='/tooth';
+                }else{
+                    alert('登录失败');
+                }
+            }
+        });
+    });
+
+    </script>
+</body>
+
+</html>
