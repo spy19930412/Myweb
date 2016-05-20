@@ -14,8 +14,13 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.engine('html', require('ejs').renderFile);
+//app.engine('html', require('ejs').renderFile);
+//下面两行为了用母版页
+app.engine('html', require('ejs-mate'));
+app.locals._layoutFile = 'layout.html';
 app.set('view engine', 'html');
+
+
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));

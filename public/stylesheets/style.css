@@ -3,9 +3,9 @@ body{ margin:0; padding:0;}
 *{ margin:0; padding:0; list-style-type:none; outline:none; border:none; text-decoration:none;}
 a{ cursor:pointer;}
 
-.header{ width:100%; min-width:1270px; background: none repeat scroll 0 0 #e5e5e5; height:146px; position:fixed; top:0; width:100%; z-index:9999; }
+.header{ width:100%; min-width:1270px; background: none repeat scroll 0 0 #d9e1e6; height:146px; position:fixed; top:0; width:100%; z-index:9999; }
 .top{ width:1270px; display:block; overflow:hidden; margin:0 auto; height:146px;}
-.top .logo{ display:block; overflow:hidden; float:left; margin-top:60px;}
+.top .logo{ display:block; overflow:hidden; float:left; margin-top:25px;}
 .top .logo span{ padding-left:20px; background:url(../images/phone.png) no-repeat left center; color:#666; margin-right:10px; margin-top:5px;}
 .top .logo span em{color:#055487; font-size:14px; font-weight:bold; margin-left:5px;}
 .top .nav_box{ width:1045px; display:block; overflow:hidden; float:right;position:relative;}
@@ -18,7 +18,9 @@ a{ cursor:pointer;}
 .nav ul li a.cur,.nav ul li a:hover{ background:url(../images/nav_bg.png) no-repeat center;}
 .nav ul li a span{ font-size:16px; color:#003a7e;}
 
-
+section{
+	background-color: #f0f9ff;
+}
 /*banner*/
 .carousel{
 	width:1280px;
@@ -47,7 +49,7 @@ a{ cursor:pointer;}
 
 
 /*footer*/
-.footer{ width:100%; min-width:1270px; height:50px; line-height:50px; font-size:12px; background:#061f3e;}
+.footer{ width:100%; min-width:1270px; height:50px; line-height:50px; font-size:12px; background:#222643;}
 .footer .foot{ width:1270px; margin:0 auto; display:block; overflow:hidden;}
 .footer .foot .fl{ float:left; display:block; overflow:hidden; color:#fff;}
 .footer .foot .fl a,.footer .foot .fr p,.footer .foot .fr p a{ color:#fff;}
