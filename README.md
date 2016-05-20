@@ -8,7 +8,7 @@ git clone:https://github.com/spy19930412/toothWeb.git
 
 * `clone`
 * `grunt`
-* 启动数据库
+* 启动数据库`:\Program Files (x86)\mysql-5.7.12-winx64\bin>net start mysql`
 * `localhost:3008`
 
 
