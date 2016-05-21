@@ -33,14 +33,14 @@ section{
  
 
 /*首页内容部分main*/
-.main_box{width:100%; min-width:1270px; background:url(../images/main_bg.png) repeat-x; height:366px;}
+.main_box{width:100%; min-width:1270px;  height:366px;}
 .main{ width:1294px; display:block; overflow:hidden; margin:0 auto;}
-.main .one{ width:300px; height:310px; padding:0 25px 19px; display:block; overflow:hidden; float:left; background:url(../images/one_bg.png) no-repeat; margin:25px 3px 0;}
-.main .one h2{ height:47px; text-align:center; line-height:47px; color:#fff; font-size:18px; font-family:"微软雅黑"; font-weight:normal;}
+.main .one{ height:310px; padding:0 8px 19px; display:block; overflow:hidden; float:left; margin:25px 3px 0;}
+.main .one h2{ height:47px; width:300px; text-align:center; line-height:47px; color:#fff; font-size:18px; font-family:"微软雅黑"; font-weight:normal; background-color: #222643;}
 .main .one .one_cc{ height:260px; display:block; overflow:hidden; width:300px; position:relative;}
 .main .one .one_cc i{ width:300px; height:100px; display:block; overflow:hidden;}
 .main .one .one_cc i img{ display:block; overflow:hidden; margin:0 auto; margin-top:15px;}
-.main .one .one_cc a.more{ display:block; overflow:hidden; background:url(../images/more_bg.png) no-repeat; width:136px; height:38px; text-align:center; color:#fff;font:14px/38px "微软雅黑"; position:absolute; left:50%; margin-left:-68px; bottom:17px;}
+.main .one .one_cc a.more{ display:block; overflow:hidden;  width:136px; height:38px; text-align:center; color:#fff;font:14px/38px "微软雅黑"; position:absolute; left:50%; margin-left:-68px; bottom:17px;}
 
 .main .one .one_cc p{ text-indent:2em; line-height:30px; color:#666; font-size:12px;}
 .main .one .one_cc ul li{ width:256px; border-bottom:1px dotted #afafaf; padding:3px 0 0 10px;}

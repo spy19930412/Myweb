@@ -1,6 +1,6 @@
 # Myweb
 
-海口光华口腔门诊
+海口光华口腔门诊——node.js+express+Mysql搭建的网站
 
 git clone:https://github.com/spy19930412/toothWeb.git
 
