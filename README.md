@@ -30,3 +30,10 @@ git clone:https://github.com/spy19930412/toothWeb.git
 4.命令参考
 http://blog.csdn.net/hanhailong726188/article/details/46738929
 
+
+参考
+http://www.tuicool.com/articles/JfqYN3I
+
+数据库参考
+http://jingyan.baidu.com/article/3c343ff70d0ee00d37796397.html
+
