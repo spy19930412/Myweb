@@ -9,6 +9,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var tooth = require('./routes/tooth');
 var users = require('./routes/users');
+var doctor = require('./routes/doctors');
 
 var app = express();
 
@@ -31,6 +32,7 @@ app.use(cookieParser());
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/doctor', doctor);
 app.use(express.static(path.join(__dirname, 'public')));
 
 
