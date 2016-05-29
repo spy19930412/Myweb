@@ -36,6 +36,7 @@ http://blog.csdn.net/hanhailong726188/article/details/46738929
 * [node.js Web 应用框架 Express 入门指南](http://www.jb51.net/article/50472.htm)
 * [Express 基于 Node.js 平台，快速、开放、极简的 web 开发框架。](http://www.expressjs.com.cn/)
 * [数据库参考](http://jingyan.baidu.com/article/3c343ff70d0ee00d37796397.html)
+* [express+mysql+ejs教程](http://www.cnblogs.com/zhongweiv/category/539147.html)
 
 
 
