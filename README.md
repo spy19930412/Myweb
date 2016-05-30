@@ -22,7 +22,7 @@ git clone:https://github.com/spy19930412/toothWeb.git
 * `git push -u origin master`
 
 ### 命令参考
-http://blog.csdn.net/hanhailong726188/article/details/46738929
+* [git命令上传与更新](http://blog.csdn.net/hanhailong726188/article/details/46738929)
 
 ## 使用
 * 下载安装git

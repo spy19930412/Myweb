@@ -5,11 +5,11 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-
-var routes = require('./routes/index');
-var tooth = require('./routes/tooth');
+//tooth是网站主页面，route以此为基始
+var routes = require('./routes/tooth');
 var users = require('./routes/users');
 var doctor = require('./routes/doctors');
+var branch = require('./routes/branch');
 
 var app = express();
 
