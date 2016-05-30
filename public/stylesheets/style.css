@@ -87,17 +87,17 @@ section{
     width: 960px;
     margin: 0 auto;
 }
-.doctors h1{
-	height: 55px;
-	padding-top: 20px;
-	color: #222643;
-	font-size: 20px;
-	line-height: 1;
-	font-weight: normal;
-	border-bottom: 1px dotted #b3b3b3;
+.doctors h1,.con h1{
+  color: #222643;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: normal;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #b3b3b3;
+  margin-bottom: 20px;
 }
 .doc-lists .doc-item {
-    background-color: #fafafa;
     padding-left: 20px;
     padding-right: 50px;
     margin-bottom: 10px;
@@ -267,13 +267,143 @@ section{
   width: 960px;
   margin: 0 auto;
 }
-.con h1 {
-  color: #66cc00;
-  font-size: 20px;
-  line-height: 1;
-  font-weight: normal;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  border-bottom: 1px dotted #b3b3b3;
-  margin-bottom: 20px;
+
+
+/* order */
+.appointmentForm {
+  border: 1px solid #dfdfdf;
+  padding: 60px 0;
+}
+.step {
+  width: 230px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #e2e6ef;
+  text-align: center;
+  color: #2a2a2a;
+  margin-left: 9px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.step.current {
+  background-color: #c3d133;
+  color: #fff;
+  margin-left: 0;
+}
+.formItemIndent {
+  padding-left: 140px;
+  color: #696969;
+  line-height: 50px;
+}
+.formItem {
+  color: #696969;
+  line-height: 50px;
+}
+
+.formItem label{
+  font-weight: 400;
+}
+.formItem-key {
+  width: 140px;
+  text-align: right;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.formItem-value {
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 800px;
+}
+.formItem-value label {
+  display: inline-block;
+  _margin: 18px 0;
+}
+.formItem-value input[type="checkbox"] {
+  height: 14px;
+}
+.J_SelectIcon {
+  left: 220px;
+}
+.J_BranchIcon {
+  left: 452px;
+  display: none;
+}
+.J_DepartmentIcon {
+  left: 680px;
+  display: none;
+}
+.relativeCon .J_SelectIcon {
+  left: 390px;
+}
+/* input */
+.formInput {
+  border: 1px solid #d4d4d4;
+  width: 268px;
+  height: 34px;
+  padding: 2px 5px;
+  line-height: 34px;
+}
+.formInput:focus {
+  border-color: #c3d133;
+}
+.formTextarea {
+  border: 1px solid #d4d4d4;
+  padding: 2px 5px;
+  vertical-align: top;
+}
+.formTextarea:focus {
+  border-color: #c3d133;
+}
+
+/* hospital */
+.about h2 {
+  color: #696969;
+  line-height: 45px;
+  font-size: 18px;
+  text-indent: 28px;
+}
+.about p {
+  color: #696969;
+  line-height: 35px;
+}
+.indent {
+    text-indent: 2em;
+}
+.strong {
+    font-weight: bold;
+}
+/*setting*/
+.setting_item img{
+  width: 960px;
+}
+
+/*skill*/
+.news_list {
+    width: 960px;
+    display: block;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.news_list li {
+    width: 960px;
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px dotted #a9a9a9;
+    line-height: 40px;
+    font-size: 14px;
+}
+.news_list li a {
+    background: url(../images/imgfiles/la_bg.png) no-repeat 10px center;
+    padding-left: 25px;
+    color: #666;
+    float: left;
+}
+.news_list li span {
+    float: right;
+    margin-right: 30px;
+    color: #666;
 }

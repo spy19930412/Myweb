@@ -1,1 +1,58 @@
-order.html
+<div class="con">
+		<h1>预约申请</h1>
+        <div class="appointmentForm mt20">
+            <form>
+                <div class="formItem">
+                    <span class="formItem-key"><span class="red">* </span>患者姓名：</span>
+                    <input type="text" name="patientName" class="formInput" datatype="name" errormsg="姓名不能全为数字,2~10字符" nullmsg="姓名不能为空">
+                </div>
+                <div class="formItem">
+                    <span class="formItem-key">性别：</span>
+                    <label for="male">男 </label><input type="radio" name="patientSex" value="1" id="male" checked="checked">
+                    <label for="female" class="ml20">女 </label><input type="radio" name="patientSex" id="female" value="0">
+                </div>
+                <div class="formItem relativeCon">
+                    <span class="formItem-key"><span class="red">* </span>预约时间：</span>
+                    <label for="allday" class="ml20">全天 </label><input type="radio" name="appointmentStartType" id="allday" value="0" checked="checked">
+                    <label for="forenoon" class="ml20">上午 </label><input type="radio" name="appointmentStartType" id="forenoon" value="1">
+                    <label for="afternoon" class="ml20">下午 </label><input type="radio" name="appointmentStartType" id="afternoon" value="2">                    
+                </div>
+                <div class="formItem">
+                    <label class="formItem-key"><span class="red">* </span>手机：</label>
+                    <input type="text" name="userMobi" class="formInput" datatype="p" errormsg="手机11个数字" nullmsg="手机不能为空">
+                </div>
+                <div class="formItem">
+                    <span class="formItem-key">病症选择：</span>
+                    <div class="formItem-value J_CheckboxDiv">
+                        <label><input type="checkbox" name="treatmentDescription"> 微创拔牙</label>
+                        <input type="checkbox" name="treatmentDescription" id="disease-02" class="ml10"> <label for="disease-02">微创拔牙</label>
+                        <input type="checkbox" name="treatmentDescription" id="disease-03" class="ml10"> <label for="disease-03">微创拔牙</label>
+                        <input type="checkbox" name="treatmentDescription" id="disease-04" class="ml10"> <label for="disease-04">微创拔牙</label>
+                        <input type="checkbox" name="treatmentDescription" id="disease-05" class="ml10"> <label for="disease-05">微创拔牙</label>
+                        <input type="checkbox" name="treatmentDescription" id="disease-06" class="ml10"> <label for="disease-06">微创拔牙</label>
+                        <input type="checkbox" name="treatmentDescription" id="disease-07" class="ml10"> <label for="disease-07">微创拔牙</label>
+                        <br>
+                        <input type="checkbox" name="treatmentDescription" id="disease-08"> <label for="disease-08">微创拔牙</label>
+                        <input type="checkbox" name="treatmentDescription" id="disease-09" class="ml10"> <label for="disease-09">微创拔牙</label>
+                        <input type="checkbox" name="treatmentDescription" id="disease-10" class="ml10"> <label for="disease-10">微创拔牙</label>
+                        <input type="checkbox" name="treatmentDescription" id="disease-11" class="ml10"> <label for="disease-11">微创拔牙</label>
+                        <input type="checkbox" name="treatmentDescription" id="disease-12" class="ml10"> <label for="disease-12">微创拔牙</label>
+                    </div>
+					<input type="hidden" name="treatmentDescription">
+                </div>
+                <div class="formItem">
+                    <label class="formItem-key">病情描述：</label>
+                    <textarea rows="8" cols="110" class="formTextarea mt10 mb10" datatype="n300" name="appointmentReason" errormsg="最多只能300个字符"></textarea>
+                </div>
+                <div class="formItem relativeCon">
+                    <label class="formItem-key">期望医生：</label>
+                    <input type="text" class="formInput J_SelectInput" name="docName">
+                </div>
+				<input type="hidden" name="hospitalCode" value="HZ04">
+                <div class="formItemIndent mt20">
+                    <input type="submit" class="btn btn-primary" value="提交预约">
+                    <input type="button" class="btn btn-default" value="取消" id="J_Cancel" data-href="doctors.html">
+                </div>
+            </form>
+        </div>
+	</div>

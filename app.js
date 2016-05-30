@@ -8,8 +8,14 @@ var bodyParser = require('body-parser');
 //tooth是网站主页面，route以此为基始
 var routes = require('./routes/tooth');
 var users = require('./routes/users');
+var guide = require('./routes/guide');
+var order =require('./routes/order');
+var medical=require('./routes/medical');
 var doctor = require('./routes/doctors');
+var hospital = require('./routes/hospital');
+var setting = require('./routes/setting');
 var branch = require('./routes/branch');
+var skill = require('./routes/skill');
 
 var app = express();
 
