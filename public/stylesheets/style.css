@@ -60,10 +60,10 @@ section{
 
 /*首页内容部分main*/
 .main_box{width:100%; min-width:1270px;  height:366px;}
-.main{ width:1294px; display:block; overflow:hidden; margin:0 auto;}
-.main .one{ height:310px; padding:0 8px 19px; display:block; overflow:hidden; float:left; margin:25px 3px 0;}
-.main .one h2{ height:47px; width:300px; text-align:center; line-height:47px; color:#fff; font-size:18px; font-family:"微软雅黑"; font-weight:normal; background-color: #222643;}
-.main .one .one_cc{ height:260px; display:block; overflow:hidden; width:300px; position:relative;}
+.main{ width:1294px; display:block; margin:0 auto;}
+.main .one{ height:310px; padding-bottom:19px; display:block; overflow:hidden; float:left; margin:25px 3px 0; box-shadow: 0px 0px 3px 0px #666; margin-right: 20px;}
+.main .one h2{ height:47px; width:300px; text-align:center; line-height:47px; color:#fff; font-size:18px; font-family:"微软雅黑"; font-weight:normal; background-color: #222643; margin: 0;}
+.main .one .one_cc{ height:260px; display:block; overflow:hidden; width:300px; position:relative; padding: 0 10px;}
 .main .one .one_cc i{ width:300px; height:100px; display:block; overflow:hidden;}
 .main .one .one_cc i img{ display:block; overflow:hidden; margin:0 auto; margin-top:15px;}
 .main .one .one_cc a.more{ display:block; overflow:hidden;  width:136px; height:38px; text-align:center; color:#fff;font:14px/38px "微软雅黑"; position:absolute; left:50%; margin-left:-68px; bottom:17px;}
